@@ -3,3 +3,6 @@
 -- Add any additional options here
 
 vim.g.autoformat = false
+
+-- Render spaces
+vim.opt.listchars = "tab:> ,trail:-,nbsp:+,space:·"
